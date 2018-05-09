@@ -20,7 +20,7 @@ video_capture = cv2.VideoCapture(a)
 debug = False
 # debug = True
 emotion =  "Happy"
-block_blob_service = BlockBlobService(account_name='dframestore', account_key='OnhP42HygAj8KJQ3gofju+zRw55bmKGVcFF2+ka1ypNormmXCZ0qqWCl4cvWWn7EK/QbcecgxtVpcH7wZD2KBw==')
+block_blob_service = BlockBlobService(account_name='[Your storage account name]', account_key='[Your storage account key]')
 
 def runFeed():         
 
